@@ -35,3 +35,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Ejecutar ansible
+      - name: Run ansible en Runner
+        run: |
+          ansible-playbook test.yml -i localhost
+
