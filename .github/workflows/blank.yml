@@ -40,5 +40,6 @@ jobs:
       - name: Run ansible en Runner
         run: |
           pwd
+          git ls-tree -r master --name-only
           ansible-playbook /home/adminrhel/test.yml -i localhost
 
