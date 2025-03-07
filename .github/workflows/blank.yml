@@ -39,5 +39,6 @@ jobs:
       # Ejecutar ansible
       - name: Run ansible en Runner
         run: |
-          ansible-playbook test.yml -i localhost
+          pwd
+          ansible-playbook /home/adminrhel/test.yml -i localhost
 
