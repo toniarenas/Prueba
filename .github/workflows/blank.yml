@@ -44,4 +44,5 @@ jobs:
           git clone https://github.com/toniarenas/PruebaAWX1.git /tmp/borrar
           ls -altr /tmp/borrar
           ansible-playbook /tmp/borrar/test.yml -i localhost
+          rm -rf /tmp/borrar
 
