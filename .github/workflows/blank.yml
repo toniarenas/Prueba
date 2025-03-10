@@ -41,5 +41,7 @@ jobs:
         run: |
           pwd
           git ls-tree -r master --name-only
-          ansible-playbook /home/adminrhel/test.yml -i localhost
+          git clone https://github.com/toniarenas/PruebaAWX1.git /tmp/borrar
+          ls -altr /tmp/borrar
+          ansible-playbook /tmp/borrar/PruebaAWX1/test.yml -i localhost
 
