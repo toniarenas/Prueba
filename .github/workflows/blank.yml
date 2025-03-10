@@ -43,5 +43,5 @@ jobs:
           git ls-tree -r master --name-only
           git clone https://github.com/toniarenas/PruebaAWX1.git /tmp/borrar
           ls -altr /tmp/borrar
-          ansible-playbook /tmp/borrar/PruebaAWX1/test.yml -i localhost
+          ansible-playbook /tmp/borrar/test.yml -i localhost
 
